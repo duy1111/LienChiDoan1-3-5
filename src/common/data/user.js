@@ -19,7 +19,7 @@ export const user =[
     {
         name:'Thanh Thủy',
         role:'R2',
-        image:'https://scontent.fdad3-4.fna.fbcdn.net/v/t1.15752-9/361604962_3061585884150034_6300419019292499554_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ZKAKzxKb8HsAX8J78n8&_nc_ht=scontent.fdad3-4.fna&oh=03_AdQf5DBURsojr2NiMrWudMHdtKVzUJ2uqgYpZ2pA2zULsg&oe=64DB0A9E',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689488068/1-3-5/ThanhThuy_ncwcyk.jpg',
         description:'',
         title:'',
         id:3,
