@@ -298,4 +298,14 @@ export const user =[
         fbUrl:'https://www.facebook.com/sakura.tomoyou.9'
 
     },
+    {
+        name:'Phạm Ngọc Anh Thư',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689513888/1-3-5/PhamNgocAnhThu_hymxqu.jpg',
+        description:'',
+        title:'',
+        id:31,
+        fbUrl:'https://www.facebook.com/profile.php?id=100088074236913&mibextid=ZbWKwL'
+
+    },
 ]
