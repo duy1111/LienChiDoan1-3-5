@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ImageCards";
 import Particle from "../Particle";
 
-import editor from "../../Assets/Projects/codeEditor.png";
 
 
 function Projects() {
