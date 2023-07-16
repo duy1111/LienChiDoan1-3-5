@@ -2,6 +2,7 @@ export const user =[
     {
         name:'Huỳnh Hữu Hậu',
         role:'R1',
+        fbUrl:'',
         image:'https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/72267057_1494824203989806_4998223793643061248_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ksRbZ05Z2dcAX8IVpbh&_nc_ht=scontent.fdad2-1.fna&oh=00_AfAqupjxOpEvYTsY7Upt7CTuh_iUPA78quH1csIi2TZ1rw&oe=64DA4288',
         description:'',
         title:'',
@@ -10,6 +11,7 @@ export const user =[
     {
         name:'Văn An',
         role:'R1',
+        fbUrl:'',
         image:'https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/327184861_558210789671322_169043939450688802_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=bPCnho0cYQAAX_HZQsz&_nc_ht=scontent.fdad1-3.fna&oh=00_AfCu_DyH2nz4qUpzTRaV6jN_JLIBkG9g5Fj7fPD9PaeFqw&oe=64B8A76D',
         description:'',
         title:'',
@@ -23,6 +25,8 @@ export const user =[
         description:'',
         title:'',
         id:3,
+        fbUrl:'',
+
     },
     {
         name:'Như Anh',
@@ -31,6 +35,8 @@ export const user =[
         description:'',
         title:'',
         id:4,
+        fbUrl:'',
+
     },
     {
         name:'Châu Kim Bảo',
@@ -39,6 +45,8 @@ export const user =[
         description:'',
         title:'',
         id:5,
+        fbUrl:'',
+
     },
     {
         name:'Lê Ngọc Minh',
@@ -47,6 +55,8 @@ export const user =[
         description:'',
         title:'',
         id:6,
+        fbUrl:'',
+
     },
     {
         name:'Lê Kim Huy',
@@ -55,6 +65,8 @@ export const user =[
         description:'',
         title:'',
         id:7,
+        fbUrl:'',
+
     },
     {
         name:'Mai Thị Hiền',
@@ -63,6 +75,8 @@ export const user =[
         description:'',
         title:'',
         id:8,
+        fbUrl:'',
+
     },
     {
         name:'Nguyễn Dương Trúc Loan',
@@ -71,6 +85,8 @@ export const user =[
         description:'',
         title:'',
         id:9,
+        fbUrl:'',
+
     },
     {
         name:'Đoàn Ngọc Bảo Trâm',
@@ -79,6 +95,8 @@ export const user =[
         description:'',
         title:'',
         id:10,
+        fbUrl:'',
+
     },
     {
         name:'Thanh Phương',
@@ -87,6 +105,8 @@ export const user =[
         description:'',
         title:'',
         id:11,
+        fbUrl:'',
+
     },
     {
         name:'Phạm Thị Hà',
@@ -95,6 +115,8 @@ export const user =[
         description:'',
         title:'',
         id:12,
+        fbUrl:'',
+
     },
     {
         name:'Võ Văn Kỹ',
@@ -103,6 +125,8 @@ export const user =[
         description:'',
         title:'',
         id:13,
+        fbUrl:'',
+
     },
     {
         name:'Huỳnh Tấn Đức',
@@ -111,6 +135,8 @@ export const user =[
         description:'',
         title:'',
         id:14,
+        fbUrl:'',
+
     },
     {
         name:'Thanh Tuấn',
@@ -119,6 +145,8 @@ export const user =[
         description:'',
         title:'',
         id:15,
+        fbUrl:'',
+
     },
     {
         name:'Thanh Vân',
@@ -127,6 +155,8 @@ export const user =[
         description:'',
         title:'',
         id:16,
+        fbUrl:'',
+
     },
     {
         name:'Thanh Hiền',
@@ -135,5 +165,37 @@ export const user =[
         description:'',
         title:'',
         id:17,
+        fbUrl:'',
+
+    },
+    {
+        name:'Nguyễn Trần Trúc Linh',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689494908/1-3-5/NguyenTranTrucLinh_sggjvg.jpg',
+        description:'',
+        title:'',
+        id:18,
+        fbUrl:'',
+
+    },
+    {
+        name:'Mai Hoàng Nhi',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689494909/1-3-5/MaiHoangNhi_fcc0kz.jpg',
+        description:'',
+        title:'',
+        id:19,
+        fbUrl:'',
+
+    },
+    {
+        name:'Mai Hoàng Nhi',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689494909/1-3-5/MaiHoangNhi_fcc0kz.jpg',
+        description:'',
+        title:'',
+        id:19,
+        fbUrl:'',
+
     },
 ]

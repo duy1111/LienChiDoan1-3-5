@@ -752,3 +752,20 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+
+/* slider */
+
+.slick-slide img {
+  margin: auto;
+}
+
+li.slick-active > button::before {
+  color: red !important;
+}
+.image-container {
+  padding: 40px;
+}
+.image-slide__item{
+  height: 500px ;
+}

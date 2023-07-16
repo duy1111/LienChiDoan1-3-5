@@ -11,6 +11,7 @@ import {
   AiFillFacebook,
   AiOutlineUser,
   AiOutlineFileImage
+
 } from "react-icons/ai";
 
 
@@ -80,7 +81,18 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/image"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFileImage
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Ảnh
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
