@@ -11,7 +11,7 @@ function Person2() {
         if(item.role === 'R2'){
           return (
           
-            <Col xs={4} md={2} className="tech-icons">
+            <Col xs={12} md={2} sm={4} className="tech-icons">
               <img className="image" width={150} height={150} src={item?.image} alt={item?.title}  />
               <p>{item.name}</p>
               <Button variant="primary" href={item.fbUrl} target="_blank">
