@@ -32,12 +32,12 @@ export const user =[
         id:1,
     },
     {
-        name:'Huỳnh Hữu Hậu',
+        name:'Thanh Thủy',
         role:'R2',
-        image:'https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/72267057_1494824203989806_4998223793643061248_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ksRbZ05Z2dcAX8IVpbh&_nc_ht=scontent.fdad2-1.fna&oh=00_AfAqupjxOpEvYTsY7Upt7CTuh_iUPA78quH1csIi2TZ1rw&oe=64DA4288',
+        image:'https://scontent.fdad3-4.fna.fbcdn.net/v/t1.15752-9/361604962_3061585884150034_6300419019292499554_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ZKAKzxKb8HsAX8J78n8&_nc_ht=scontent.fdad3-4.fna&oh=03_AdQf5DBURsojr2NiMrWudMHdtKVzUJ2uqgYpZ2pA2zULsg&oe=64DB0A9E',
         description:'',
         title:'',
-        id:1,
+        id:3,
     },
     {
         name:'Huỳnh Hữu Hậu',
