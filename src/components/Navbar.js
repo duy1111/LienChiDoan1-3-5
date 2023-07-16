@@ -53,7 +53,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> Trang chủ
               </Nav.Link>
             </Nav.Item>
 
@@ -63,20 +63,20 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Thành viên
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/images"
+                to="/active"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFileImage
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Ảnh
+                Hoạt động
               </Nav.Link>
             </Nav.Item>
 
@@ -88,7 +88,7 @@ function NavBar() {
                 to="/blogs"
                 onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Bài viết
               </Nav.Link>
             </Nav.Item>
 
