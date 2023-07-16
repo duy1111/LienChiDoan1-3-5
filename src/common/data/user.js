@@ -269,12 +269,22 @@ export const user =[
 
     },
     {
+        name:'Phạm Tấn Lượng',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689512773/1-3-5/PhamTanLuong_wntpxd.jpg',
+        description:'',
+        title:'',
+        id:28,
+        fbUrl:'https://www.facebook.com/luonh.pham.50'
+
+    },
+    {
         name:'Phan Thảo Nguyên',
         role:'R2',
         image:'https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/290105600_710674846704906_3927643739221491633_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=tn47LeeH328AX_Hoy0F&_nc_ht=scontent.fdad2-1.fna&oh=00_AfAleaQEF8uBhUpvbQSF9NO3hnBECDg4au3nhAvRyBa0Nw&oe=64B84AFD',
         description:'',
         title:'',
-        id:28,
+        id:29,
         fbUrl:'https://www.facebook.com/profile.php?id=100032871916659&sk=photos'
 
     },
@@ -284,7 +294,7 @@ export const user =[
         image:'https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/346767828_3106834652956070_4819030939774524174_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=lSkRCRe7p00AX-o6LUu&_nc_ht=scontent.fdad1-3.fna&oh=00_AfAam4B-m7RSiBptJeX9EhpOEBXvIRQ2LFuFw9_UvlHM_w&oe=64B879F2',
         description:'',
         title:'',
-        id:29,
+        id:30,
         fbUrl:'https://www.facebook.com/sakura.tomoyou.9'
 
     },
