@@ -41,7 +41,7 @@ function About() {
         <Person />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Thành viên </strong> 1-3-5
         </h1>
         <Toolstack />
 
