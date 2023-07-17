@@ -740,7 +740,9 @@ button:focus {
   text-align: center !important;
   display: flex !important;
   gap: 6;
-  
+  display: flex;
+  justify-content: center;
+  gap: 6px;
   align-items: center !important;
 }
 
@@ -767,5 +769,10 @@ li.slick-active > button::before {
   padding: 40px;
 }
 .image-slide__item{
-  height: 500px ;
+  height: 500px;
+}
+@media (max-width: 767px) {
+  .image-slide__item{
+    height: 200px !important;
+  }
 }
