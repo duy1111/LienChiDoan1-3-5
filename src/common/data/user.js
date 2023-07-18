@@ -308,4 +308,64 @@ export const user =[
         fbUrl:'https://www.facebook.com/profile.php?id=100088074236913&mibextid=ZbWKwL'
 
     },
+    {
+        name:'Võ Ngọc Hoài Nam',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689612238/1-3-5/VoNgocHoaiNam_atvbjd.jpg',
+        description:'',
+        title:'',
+        id:32,
+        fbUrl:'https://www.facebook.com/profile.php?id=100082424273181&mibextid=ZbWKwL'
+
+    },
+    {
+        name:'Trần Ngọc Giàu',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689612238/1-3-5/TranNgocGiau_gqjcav.jpg',
+        description:'',
+        title:'',
+        id:33,
+        fbUrl:'https://www.facebook.com/profile.php?id=100088074236913&mibextid=ZbWKwL'
+
+    },
+    {
+        name:'Bùi Thị Diệu Hiền',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689696384/DieuHien_cnrr1h.jpg',
+        description:'',
+        title:'',
+        id:34,
+        fbUrl:'https://www.facebook.com/profile.php?id=100090403762013'
+
+    },
+    {
+        name:'Lê Thảo Nguyên',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689696384/Le%CC%82_tha%CC%89o_nguye%CC%82n_bomcii.jpg',
+        description:'',
+        title:'',
+        id:35,
+        fbUrl:'https://www.facebook.com/profile.php?id=100094129272737'
+
+    },
+    {
+        name:'Nguyễn Lê thanh Giang',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689696384/NguyenLeThanhGiang_ra0vfu.jpg',
+        description:'',
+        title:'',
+        id:36,
+        fbUrl:'https://www.facebook.com/nltg.wgh04'
+
+    },
+    {
+        name:'Phạm Minh Thi',
+        role:'R2',
+        image:'https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-1/351490911_650814313248109_7087241693532828378_n.jpg?stp=dst-jpg_s480x480&_nc_cat=110&ccb=1-7&_nc_sid=7206a8&_nc_ohc=eghrMldfRSMAX-qpCfi&_nc_ht=scontent.fdad1-3.fna&oh=00_AfA3149V0vhVVxc3Hrz2weM3_4mD12Dz5anlsXMekawmQw&oe=64BACE68',
+        description:'',
+        title:'',
+        id:37,
+        fbUrl:'https://www.facebook.com/profile.php?id=100050095716240'
+
+    },
 ]
