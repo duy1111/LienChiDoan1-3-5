@@ -368,4 +368,14 @@ export const user =[
         fbUrl:'https://www.facebook.com/profile.php?id=100050095716240'
 
     },
+    {
+        name:'Phan Anh Kiệt',
+        role:'R2',
+        image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1691931409/blog_135/z4600477775924_37b3d12c9e44132c606c138529b7c8d2_gikzc5.jpg',
+        description:'',
+        title:'',
+        id:37,
+        fbUrl:'https://www.facebook.com/anhkiet.phan.9898'
+
+    },
 ]

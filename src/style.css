@@ -500,6 +500,9 @@ button:focus {
 .blog-link:hover {
   cursor: pointer !important;
 }
+.img-fluid{
+  min-height: 150px;
+}
 
 .blog-card-view:hover {
   transform: scale(1.02) !important;
@@ -775,4 +778,9 @@ li.slick-active > button::before {
   .image-slide__item{
     height: 200px !important;
   }
+}
+
+.border-container{
+  border: 2px solid #8a49a8 ;
+  border-radius: 20px;
 }
