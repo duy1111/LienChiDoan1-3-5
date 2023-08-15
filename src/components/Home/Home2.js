@@ -10,9 +10,13 @@ import {
 } from "react-icons/ai";
 import { ImPointRight } from "react-icons/im";
 import { Link, useNavigate } from "react-router-dom";
+import { user } from "../../common/data/user";
 
 
 function Home2() {
+  let users = user
+  let admin = user.filter((item) => item.role === 'R1')
+  let tv = user.filter((item) => item.role === 'R2')
   const navigate = useNavigate();
 
   let changeAbout = () => {
@@ -70,6 +74,9 @@ function Home2() {
             <h1 style={{ fontSize: "2.4em" }}>
               LIÊN CHI ĐOÀN <span className="purple">1-3-5</span> 
             </h1>
+            <div style={{ fontSize: "1.6em" }} >
+              gồm có<strong className="purple"> {admin.length}</strong> bí thư, và <strong className="purple">{tv.length}</strong> thành viên
+            </div>
             <ul>
             
                 <li
