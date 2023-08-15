@@ -6,7 +6,7 @@ import { BsFacebook } from "react-icons/bs";
 
 function ProjectCards(props) {
   return (
-    <Card className="project-card-view">
+    <Card className="project-card-view" style={{overflow:'hidden'}}>
       {props.video ?  <div style={{marginTop: 12}} dangerouslySetInnerHTML={{ __html: props.video }} />  :       <Card.Img variant="top" src={props.imgPath} alt="card-img" />}
 
       

@@ -30,7 +30,7 @@ const UserDetail = () => {
             src={data.image}
             alt="home pic"
             className="image"
-            style={{ height: 400, width: 400 }}
+            style={{ height: 300, width: 300 }}
           />
         </Col>
         <Col xs={12} md={6} xxl={6}>
