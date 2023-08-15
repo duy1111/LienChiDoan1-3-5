@@ -30,7 +30,7 @@ const UserDetail = () => {
             src={data.image}
             alt="home pic"
             className="image"
-            style={{ height: 300, width: 300 }}
+            style={{ minHeight: 300, minWidth: 300 ,maxHeight:400,maxWidth:400}}
           />
         </Col>
         <Col xs={12} md={6} xxl={6}>
@@ -50,7 +50,7 @@ const UserDetail = () => {
             
         }}
       >
-        <Col xs={12} md={8} style={{color:'#ffffff'}}>
+        <Col xs={12} md={8} style={{color:'#ffffff' ,overflow:'hidden'}}>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Chào mọi người, Tôi là <span className="purple">{data.name}</span>
@@ -67,10 +67,10 @@ const UserDetail = () => {
               <ImPointRight /> <BiMailSend style={{fontSize:'2.7rem',paddingLeft:'12px',color:'red'}} /> {data?.mail}
             </li>
             <li className="about-activity">
-              <ImPointRight /><a href={data?.insUrl} target="_blank" rel="noopener noreferrer" ><AiFillInstagram style={{fontSize:'2.8rem',paddingLeft:'12px',color:'#BC2A8D'}} /></a> {data.insName === '' ? data.insUrl: data.insName}
+              <ImPointRight /><a href={data?.insUrl} target="_blank" rel="noopener noreferrer" ><AiFillInstagram style={{fontSize:'2.8rem',paddingLeft:'12px',color:'#BC2A8D'}} /></a> <span>{data.insName === '' ? data.insUrl: data.insName}</span>
             </li>
             <li className="about-activity">
-              <ImPointRight /> <a href={data?.fbUrl} target="_blank" rel="noopener noreferrer" ><FaFacebookSquare style={{fontSize:'2.4rem',paddingLeft:'12px',color:'#365899'}} /></a> {data.fbUrl}
+              <ImPointRight /> <a href={data?.fbUrl} target="_blank" rel="noopener noreferrer" ><FaFacebookSquare style={{fontSize:'2.4rem',paddingLeft:'12px',color:'#365899'}} /></a> <span>{data.fbUrl}</span>
             </li>
           </ul>
 
