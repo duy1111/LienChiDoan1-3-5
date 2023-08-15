@@ -298,7 +298,7 @@ export const user =[
 
     },
     {
-        name:'Phạm Diễm Hương',
+        name:'Phạm Thị Diễm Hương',
         role:'R1',
         birtDay: '06/05/1999',
         mail:'mxxxxxxxxxxxx@gmail.com',
@@ -384,8 +384,12 @@ export const user =[
     {
         name:'Phạm Tấn Lượng',
         role:'R2',
+        birtDay: '28/08/2009',
+        mail:'',
+        insUrl:'',
+        insName:'',
         image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1689512773/1-3-5/PhamTanLuong_wntpxd.jpg',
-        description:'',
+        description:'Mình không dị, Họ dị giùm mình',
         title:'',
         id:28,
         fbUrl:'https://www.facebook.com/luonh.pham.50'
@@ -949,8 +953,8 @@ export const user =[
         id:71,
     },
     {
-        name:'hoàng quyên ',
-        birtDay: '12/08/2010',
+        name:'hoàng quyên',
+        birtDay: '12/08/2008',
         mail:'',
         insUrl:'https://www.instagram.com/hoangquienncutii',
         insName:'hoangquienncutii',
@@ -960,6 +964,19 @@ export const user =[
         description:'hquienn',
         title:'',
         id:72,
+    },
+    {
+        name:'nguyễn hồ phương Linh',
+        birtDay: '21/11/2008',
+        mail:'',
+        insUrl:'https://www.instagram.com/ng.plnig/?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D',
+        insName:'ng.plnig',
+        fbUrl:'https://www.facebook.com/ng.plight?mibextid=ZbWKwL',
+        role:'R2',
+        image:'https://img.upanh.tv/2023/08/15/IMG_20230812_203048_139.jpg',
+        description:'Linh xinh gái',
+        title:'',
+        id:73,
     },
     
 ]
