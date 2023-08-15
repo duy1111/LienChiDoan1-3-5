@@ -35,10 +35,10 @@ function Particle() {
         },
         interactivity: {
           events: {
-            onclick: {
-              enable: true,
-              mode: "push",
-            },
+            // onclick: {
+            //   enable: true,
+            //   mode: "push",
+            // },
           },
           modes: {
             push: {

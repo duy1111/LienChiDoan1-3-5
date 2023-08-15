@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -8,9 +8,19 @@ import {
   AiFillInstagram,
   AiFillFacebook
 } from "react-icons/ai";
+import { ImPointRight } from "react-icons/im";
+import { Link, useNavigate } from "react-router-dom";
 
 
 function Home2() {
+  const navigate = useNavigate();
+
+  let changeAbout = () => {
+    navigate(`/about`);
+  };
+  let changeActive = () => {
+    navigate(`/active`);
+  };
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -53,10 +63,46 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} style={{color:'#ffffff' ,justifyContent:'center'}} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+            <h1 style={{ fontSize: "2.4em" }}>
+              LIÊN CHI ĐOÀN <span className="purple">1-3-5</span> 
+            </h1>
+            <ul>
+            
+                <li
+                  className="about-activity"
+                  style={{
+                    padding: "20px 0px 20px 50px",
+                    fontSize: "1.8rem",
+                    cursor: "pointer",
+                  }}
+                >
+                  <ImPointRight />{" "}
+                  
+                    <Button onClick={() => changeActive()} variant="primary">
+                      <strong className="purple"> Các hoạt động</strong>
+                    </Button>
+                 
+                </li>
+                <li
+                  className="about-activity"
+                  style={{
+                    padding: "20px 0px 20px 50px",
+                    fontSize: "1.8rem",
+                    cursor: "pointer",
+                  }}
+                >
+                  <ImPointRight />{" "}
+                  
+                    <Button onClick={() => changeAbout()} variant="primary">
+                      <strong className="purple"> Các thành viên</strong>
+                    </Button>
+                  
+                </li>
+              </ul>
           </Col>
         </Row>
         <Row>
