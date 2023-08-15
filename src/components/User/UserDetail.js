@@ -14,7 +14,7 @@ const UserDetail = () => {
   console.log(data.image);
   return (
     <Container
-      style={{ padding: "200px 26px 0px 26px", justifyContent: "center" }}
+      style={{ paddingTop:'200px', justifyContent: "center" }}
     >
   
 
