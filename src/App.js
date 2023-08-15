@@ -19,6 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Images from "./components/Images/Images";
 import Blogs from "./components/Blogs/Blogs";
 import DetailBlog from "./components/Blogs/DetailBlog";
+import UserDetail from "./components/User/UserDetail";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -45,6 +46,7 @@ function App() {
           <Route path="/image" element={<Images />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/detail/:id" element={<DetailBlog/>} />
+          <Route path="/user/:id" element={<UserDetail/>} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

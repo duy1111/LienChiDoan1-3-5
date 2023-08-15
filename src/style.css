@@ -318,6 +318,8 @@ button:focus {
 }
 .image{
   object-fit: cover;
+  vertical-align: middle;
+
   border-radius: 100%;
 }
 .home-about-section {
@@ -501,7 +503,7 @@ button:focus {
   cursor: pointer !important;
 }
 .img-fluid{
-  min-height: 150px;
+  min-height: 50px;
 }
 
 .blog-card-view:hover {

@@ -11,7 +11,6 @@ const DetailBlog = () => {
 
     let arrData = Blogs
     let data = arrData.find((item) => item.id == id)
-    console.log(data)
   var settings = {
     dots: true,
   };
