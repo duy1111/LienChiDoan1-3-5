@@ -30,7 +30,7 @@ const UserDetail = () => {
             src={data.image}
             alt="home pic"
             className="image"
-            style={{ minHeight: 300, minWidth: 300 ,maxHeight:400,maxWidth:400}}
+            style={{ height: "300px", width: "300px" }}
           />
         </Col>
         <Col xs={12} md={6} xxl={6}>
@@ -54,13 +54,8 @@ const UserDetail = () => {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Chào mọi người, Tôi là <span className="purple">{data.name}</span>
-            {' '}từ <span className="purple">Liên chi đoàn 1-3-5</span>
-            <br /> Description
-            <br />
-            Description
-            <br />
-            <br />
-            Liên lạc với tôi qua
+            {' '}đến từ <span className="purple">Liên chi đoàn 1-3-5</span>
+          
           </p>
           <ul>
             <li className="about-activity">
