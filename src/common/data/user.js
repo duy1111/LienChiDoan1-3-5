@@ -8,7 +8,7 @@ export const user =[
         role:'R1',
         fbUrl:'https://www.facebook.com/hau.tranhuu.12',
         image:'https://res.cloudinary.com/dcro4uhpj/image/upload/v1690790235/1-3-5/HuynhHuuHau_uwvm0v.jpg',
-        description:'Thử lĩnh liên chi đoàn 1-3-5',
+        description:'Thủ lĩnh liên chi đoàn 1-3-5',
         title:'',
         id:1,
     },
