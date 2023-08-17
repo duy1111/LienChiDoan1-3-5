@@ -55,7 +55,7 @@ const CardOfBlog = (props) => {
                   style={{}}
                   variant="primary"
                   onClick={() => changeDetail(props.data.id)}
-                  target="_blank"
+                
                 >
                   <AiOutlineUser /> &nbsp;
                   {"Chi tiết"}
