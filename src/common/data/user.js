@@ -407,7 +407,7 @@ export const user =[
     {
         name:'Nguyễn Thảo Nhi',
         role:'R1',
-        irtDay: '07/02/1999',
+        birtDay: '07/02/1999',
         mail:'nguyen.thaonhi99@gmail.com',
         insUrl:'https://www.instagram.com/thaonhi.72/?utm_source=qr&igshid=ZGUzMzM3NWJiOQ%3D%3D',
         insName:'thaonhi.72',
