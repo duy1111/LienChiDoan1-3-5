@@ -25,6 +25,9 @@ function Home2() {
   let changeActive = () => {
     navigate(`/active`);
   };
+  let changeVideoIntro = () => {
+    navigate(`/intro`);
+  }
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -108,6 +111,19 @@ function Home2() {
                       <strong className="purple"> Các thành viên</strong>
                     </Button>
                   
+                </li>
+                <li
+                  className="about-activity"
+                  style={{
+                    padding: "20px 0px 20px 50px",
+                    fontSize: "1.8rem",
+                    cursor: "pointer",
+                  }}
+                >
+                  <ImPointRight />{" "}                 
+                    <Button onClick={() => changeVideoIntro()} variant="primary">
+                      <strong className="purple">Video giới thiệu</strong>
+                    </Button>                
                 </li>
               </ul>
           </Col>

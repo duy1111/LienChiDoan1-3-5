@@ -20,6 +20,7 @@ import Images from "./components/Images/Images";
 import Blogs from "./components/Blogs/Blogs";
 import DetailBlog from "./components/Blogs/DetailBlog";
 import UserDetail from "./components/User/UserDetail";
+import IntroVideo from "./components/IntroVideo/IntroVideo";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -44,6 +45,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/image" element={<Images />} />
+          <Route path="/intro" element={<IntroVideo />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/detail/:id" element={<DetailBlog/>} />
           <Route path="/user/:id" element={<UserDetail/>} />
