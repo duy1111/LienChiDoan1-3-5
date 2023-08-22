@@ -64,6 +64,24 @@ function Images() {
                 ])}
             />
           </Col> 
+          <Col md={12} className="project-card">
+            <ImageCard
+                title='Ảnh dìm hội trại'
+                description='Dưới đây tấm hình đẹp nhất, bựa nhất trong hội trại của trại sinh liên chi 1-3-5. '
+                ghLink=''
+                imgPath= {JSON.stringify(['https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671880/368229201_312304044615421_138033576082119181_n_otocu8.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671880/368236051_795582339233660_537553453053944650_n_xee0gu.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671880/368350771_604042438468631_5083111394245209047_n_nqnpdg.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671880/368315331_795317979260096_4409470788366718159_n_mua7pa.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671880/368346661_795312955927265_7096970386019109804_n_nmuoho.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671880/368239725_312312001281292_4202812111584249643_n_rn0tan.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671880/368765520_1803915670065137_1404011729011330544_n_z0mesz.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671881/369185956_309444861579201_6931197579223044746_n_bgghad.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671881/369188441_314010767760266_7980145059105953766_n_bjdsyc.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671881/369048582_1327075061215648_1843301040453744011_n_h0vxyo.jpg',
+                ])}
+            />
+          </Col> 
         <Col md={12} className="project-card">
             <ImageCard
                 title='Làm định danh điện tử'
