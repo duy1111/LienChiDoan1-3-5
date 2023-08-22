@@ -38,7 +38,7 @@ function ImageCard(props) {
         
       </Card.Body>
       <Card.Footer>
-      <Button variant="primary" href={props.ghLink} target="_blank">
+      <Button variant="primary" href={props.ghLink} disabled target="_blank">
           <BsImageAlt /> &nbsp;
           {props.isBlog ? "Blog" : "Link"}
         </Button>

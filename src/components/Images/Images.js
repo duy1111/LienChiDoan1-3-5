@@ -20,6 +20,52 @@ function Images() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={12} className="project-card">
             <ImageCard
+                title='🇻🇳🎉🌻TUỔI TRẺ XUÂN THIỀU 1-3-5 _ HỘI TRẠI TRUYỀN THỐNG “TIẾP BƯỚC CHA ANH” 2023🇻🇳🎉🌻'
+                description='☀Dưới cái nắng của mùa hè những đôi chân vẫn không dừng lại, vẫn cháy hết mình trong mọi cuộc chơi, cùng nhau vượt qua hết những thử thách và ngồi lại với nhau vui đùa hát ca - nắm tay nhau tạo nên những khoảnh khắc đẹp đẽ nhất. Hãy tự hào vì tất cả chúng ta đã chơi hết mình, cháy hết mình để có một “mùa trại” thật bùng nổ và nhiều ý nghĩa.
+                💓Khoảng thời gian tươi đẹp ấy, những khoảnh khắc khó quên ấy xin gửi lại nơi đây. Những bức ảnh lưu giữ kỉ niệm tuổi trẻ của LCĐ Xuân Thiều 1-3-5🫶'
+                ghLink=''
+                imgPath= {JSON.stringify(['https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671094/1-3-5/368867848_577800514549461_1340901547834554788_n_1_n6q2ot.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671091/1-3-5/368691308_577801464549366_4904833289819707650_n_xeccmc.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671088/1-3-5/368676508_577801067882739_7857393734333696491_n_fybrms.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671097/1-3-5/369200515_577801454549367_332449588129935980_n_rvlcln.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671096/1-3-5/369195955_577800741216105_1437046318243108860_n_y2ghwg.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671095/1-3-5/369198833_577801164549396_3705569012140383117_n_fwvqvq.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671095/1-3-5/369056215_577800777882768_1946634184560965270_n_qrmxtl.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671095/1-3-5/369048757_577800771216102_4021713525908147111_n_avm8wk.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671095/1-3-5/369195555_577801091216070_521715853044572672_n_lne9ls.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671094/1-3-5/369044023_577801034549409_2647126122574457331_n_nhekfb.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671093/1-3-5/368996433_577801001216079_5368815512491113685_n_ve6srh.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671093/1-3-5/368981714_577801537882692_2617894434112562757_n_yiele6.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671092/1-3-5/368821807_577800847882761_1966245163572228554_n_e2jnad.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671092/1-3-5/368904294_577801491216030_1953296383598119855_n_opq9as.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671092/1-3-5/368851352_577801154549397_1858401682735387009_n_epasni.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671092/1-3-5/368737053_577801117882734_2465275848957386401_n_yght8n.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671092/1-3-5/368745435_577800787882767_4871391451556691360_n_lb6i8v.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671091/1-3-5/368731241_577801507882695_5161599373284911477_n_zmvhp1.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671091/1-3-5/368697065_577800874549425_958156366767767609_n_xnsw2b.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671091/1-3-5/368724005_577800907882755_2713806913006805452_n_tgjntl.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671091/1-3-5/368724003_577800554549457_8444268224159035671_n_xuni8q.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671090/1-3-5/368694867_577801131216066_7316740939517568243_n_fj8qh3.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671090/1-3-5/368723993_577801497882696_431664071714247438_n_w13vvt.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671090/1-3-5/368689334_577800841216095_3389338207503217116_n_l7nrrz.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671090/1-3-5/368696812_577800711216108_8990358843069532199_n_nboxyi.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671089/1-3-5/368688379_577800927882753_572077879262136945_n_ickr1z.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671088/1-3-5/368677767_577800661216113_7671373765847620357_n_mchygk.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671088/1-3-5/368681890_577801137882732_667356959036876984_n_gmrwyh.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671088/1-3-5/368676694_577800677882778_5742130071583084658_n_ogdweb.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671088/1-3-5/368676212_577801054549407_760953916054240647_n_oluyrj.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671087/1-3-5/368639333_577800804549432_3561988166791955567_n_zho7na.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671086/1-3-5/368238818_577803974549115_1954504693570108696_n_osotlk.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671086/1-3-5/368444884_577801517882694_5246640785546081510_n_ho3v7x.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671086/1-3-5/368332811_577797664549746_514789342764132004_n_bu78mo.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671086/1-3-5/368300877_577798827882963_6606075187864414155_n_rmmqh3.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671086/1-3-5/368276112_577798091216370_3927774952644935468_n_dfa0qk.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671086/1-3-5/368353557_577797767883069_7615466681141998113_n_oe2nwu.jpg',
+                ])}
+            />
+          </Col> 
+        <Col md={12} className="project-card">
+            <ImageCard
                 title='Làm định danh điện tử'
                 description='Với khẩu hiệu “Tuổi trẻ tiên phong chuyển đổi số”, bắt đầu từ giữa tháng 7, tuổi trẻ LCĐ Xuân Thiều 1-3-5 đã tích cực hỗ trợ cho lực lượng chức năng làm định danh điện tử mức 2 lưu động ở các địa bàn khu dân cư. Đây là việc làm hiệu quả nhằm thực hiện Đề án 06 của Chính phủ “Phát triển ứng dụng dữ liệu về dân cư, định danh và xác thực điện tử phục vụ chuyển đổi số quốc gia giai đoạn 2022 - 2025, tầm nhìn đến năm 2030”.'
                 ghLink=''

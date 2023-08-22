@@ -19,6 +19,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692670544/1-3-5/368867848_577800514549461_1340901547834554788_n_ysxfiz.jpg'}
+              isBlog={false}
+              title="🇻🇳🎉🌻TUỔI TRẺ XUÂN THIỀU 1-3-5 _ HỘI TRẠI TRUYỀN THỐNG “TIẾP BƯỚC CHA ANH” 2023🇻🇳🎉🌻"
+              description="☀Dưới cái nắng của mùa hè những đôi chân vẫn không dừng lại, vẫn cháy hết mình trong mọi cuộc chơi, cùng nhau vượt qua hết những thử thách và ngồi lại với nhau vui đùa hát ca - nắm tay nhau tạo nên những khoảnh khắc đẹp đẽ nhất. Hãy tự hào vì tất cả chúng ta đã chơi hết mình, cháy hết mình để có một “mùa trại” thật bùng nổ và nhiều ý nghĩa.
+              💓Khoảng thời gian tươi đẹp ấy, những khoảnh khắc khó quên ấy xin gửi lại nơi đây. Những bức ảnh lưu giữ kỉ niệm tuổi trẻ của LCĐ Xuân Thiều 1-3-5🫶"
+              ghLink="https://www.facebook.com/profile.php?id=100069585531729"
+              demoLink="https://www.facebook.com/permalink.php?story_fbid=pfbid023iaTrvWD55ypjANg2dZvxmVcCUwFXSmc6FKhnpiSrgBMJ9SZwD2Z1p7YsLWbQbMwl&id=100069585531729"
+            />
+          </Col>
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={'https://res.cloudinary.com/dcro4uhpj/image/upload/v1690788612/phong-ch%E1%BB%91ng-t%E1%BB%87-n%E1%BA%A1n/z4559566710654_0c3aff5d9221a6459a130fb06180bc5c_djmujl.jpg'}
               isBlog={false}
               title="THANH THIẾU NIÊN HOÀ HIỆP NAM VỚI PHÒNG CHỐNG TỆ NẠN XÃ HỘI"
