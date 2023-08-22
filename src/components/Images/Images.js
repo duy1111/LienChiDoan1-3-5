@@ -79,6 +79,15 @@ function Images() {
                 'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671881/369185956_309444861579201_6931197579223044746_n_bgghad.jpg',
                 'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671881/369188441_314010767760266_7980145059105953766_n_bjdsyc.jpg',
                 'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692671881/369048582_1327075061215648_1843301040453744011_n_h0vxyo.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692678469/z4624983477217_5c96f8d4e3cad23e529b18bbb943f666_ttricf.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692678466/z4625003018749_ffe942f8d925b382ef902d7020d41ccb_zom22a.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692678465/z4624983454900_afb97117677ad35cd22228c2ef32eaf1_sfhcux.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692678464/z4624983460445_57c09cd6fda39943b9092c3acca165ce_fqmylc.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692678464/z4625002638605_7ae8ceba578973aead5069644357122a_qt3t0k.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692678464/z4624983457120_42313f8c316160295683f80c9cc75860_tlae03.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692678463/z4624983463745_f80b61b939db6339561bdfb0355ff154_dvffdp.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692678464/z4624983459594_675a40f37fe3287057b413e769bb11e5_tqkjha.jpg',
+                'https://res.cloudinary.com/dcro4uhpj/image/upload/v1692678463/368346661_795312955927265_7096970386019109804_n_vr0rrl.jpg',
                 ])}
             />
           </Col> 
