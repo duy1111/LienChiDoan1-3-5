@@ -1040,7 +1040,7 @@ export const user =[
         mail:'reyngu803@gmail.com',
         insUrl:'',
         insName:'',
-        fbUrl:'facebook.com/profile.php?id=100084014959101',
+        fbUrl:'https://www.facebook.com/profile.php?id=100084014959101',
         role:'R2',
         image:'https://img.upanh.tv/2023/08/18/z4613250733572_7260ea8668815468818077b37ac321ab-1bbde17d57b5a0749.jpg',
         description:'Đã Chơi Là Phải Chất',
